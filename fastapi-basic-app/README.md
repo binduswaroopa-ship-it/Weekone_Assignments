@@ -24,11 +24,6 @@ cd fastapi-basic-app
 python3 -m venv venv
 source venv/bin/activate
 
-# On Windows
-python -m venv venv
-source venv/bin/activate
-```
-
 ### 3. Install Dependencies
 ```bash
 pip install fastapi uvicorn
@@ -55,7 +50,7 @@ Here are the available endpoints for managing **items**:
 ```json
 {
   "name": "Laptop"
-  "price": 999.99}
+  "price": "999.99"
 }
 ```
 
